@@ -14,13 +14,14 @@ public class Group {
         System.out.println("Eric Hernandez");
         
     }
-
+// code idea from https://www.javatpoint.com/power-of-a-number-in-java
     public static int power(int num1,int num2){
         num1 = 2;
         num2 = 3;
         double x;
-         x = Math.pow(num1, num2);
-        return (int) x;
+        for(int i = 0; i < num2; i++){
+            x *= num1;
     }
+        return (int) x;
 }
 
