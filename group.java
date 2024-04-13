@@ -13,6 +13,14 @@ public class Group {
         System.out.println("Eric Hernandez");
         
     }
+   public static void addE(){
+        System.out.println("Imane Lamine");
+    }
+
+    public static void getGoupMembers(){
+        System.out.println("Imane Lamine");
+        
+    }
 // code idea from https://www.javatpoint.com/power-of-a-number-in-java
     public static int power(int num1,int num2){
         num1 = 2;
