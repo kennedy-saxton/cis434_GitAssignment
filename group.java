@@ -32,3 +32,25 @@ public class Group {
         return (int) x;
 }
 
+     public static void main(String[] args) {
+        addE();
+    }
+    
+    public static void addE(){
+        System.out.println("Hasn Hameed");
+    }
+
+    public static void getGoupMembers(){
+        System.out.println("Hasn Hameed");
+        
+    }
+    public static int multiply(int num1, int num2) {
+        int result = 0;
+        boolean negative = (num1 < 0) ^ (num2 < 0);
+        num1 = Math.abs(num1);
+        num2 = Math.abs(num2);
+        for (int i = 0; i < num2; i++) {
+            result += num1;
+        }
+        return negative ? -result : result;
+    }
