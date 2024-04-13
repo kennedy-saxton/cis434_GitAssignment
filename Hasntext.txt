@@ -1,1 +1,0 @@
-Each student should add a file with their name in the file name and some text in the file.
