@@ -65,3 +65,12 @@ public class Group {
         }
         return negative ? -result : result;
     }
+    public static void addE(){
+        System.out.println("Sarah Nguyen");
+    }
+    public static void getGroupMembers(){
+        System.out.println("Sarah Nguyen");
+    }
+    // Method
+    public static int division(int num1, int num2) {
+        return (num1/num2);
