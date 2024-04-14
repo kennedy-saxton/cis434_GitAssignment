@@ -72,5 +72,14 @@ public class Group {
         System.out.println("Sarah Nguyen");
     }
     // Method
-    public static int division(int num1, int num2) {
-        return (num1/num2);
+    public static double sqrt(double X, double low, double high) {
+    double mid = (low + high) / 2;
+    double p = mid * mid;
+     if (p == X || (Math.abs(X - p) < PRECISION)) {
+        return mid;
+    }
+    if (p < X) {
+        return sqrt(X, mid, high);
+    }
+    return sqrt(X, low, mid);
+}
