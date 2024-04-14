@@ -65,3 +65,22 @@ public class Group {
         }
         return negative ? -result : result;
     }
+     public static void addE(){
+        System.out.println("Kennedy Saxton");
+    }
+
+    public static void getGoupMembers(){
+        System.out.println("Kennedy Saxton");
+    }
+    public static int divide(int num1, int num2) throws ArithmeticException {
+        num1 = 4;
+        num2 = 7;
+        int total = 0;
+        for(int i = 0; i < num2; i++){
+            total = -= num1;
+        if(num2 == 0) {
+            throw new ArithmeticException("division by zero not allowed");
+        }
+        if((num1/num2) % 1 != 0){
+            throw ArithmeticException("result is not a whole number");
+        }
