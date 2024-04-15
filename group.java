@@ -66,6 +66,12 @@ public class Group {
         return negative ? -result : result;
     }
     public static void addE(){
+        System.out.println("Kennedy Saxton");
+    }
+    public static void getGroupMembers(){
+        System.out.println("Kennedy Saxton");
+    }
+    public static void addE(){
         System.out.println("Sarah Nguyen");
     }
     public static void getGroupMembers(){
