@@ -1,0 +1,38 @@
+pipeline {
+    agent any
+
+    tools {
+        // Make sure Java is available on the Jenkins environment
+        java 'Java 11'  
+    }
+
+    stages {
+        stage('Build') {
+            steps {
+                // Commands to compile the Java project
+                sh 'javac -cp src src/Group.java'
+            }
+        }
+        stage('Test') {
+            steps {
+                // Commands to run tests
+                sh 'java -cp src:lib/junit-platform-console-standalone.jar org.junit.platform.console.ConsoleLauncher --scan-class-path'
+            }
+        }
+    }
+
+    post {
+        always {
+            // Actions to perform after the pipeline runs, like cleanup
+            echo 'Build process completed.'
+        }
+        success {
+            // Actions to perform if the build is successful
+            echo 'Build and tests successful.'
+        }
+        failure {
+            // Actions to perform if the build fails
+            echo 'Build or tests failed.'
+        }
+    }
+}
