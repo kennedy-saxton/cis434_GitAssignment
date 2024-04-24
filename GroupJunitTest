@@ -1,0 +1,163 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
+ */
+package com.mycompany.group;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+/**
+ *
+ * @author erichernandez
+ */
+public class GroupIT {
+    
+    public GroupIT() {
+    }
+    
+    @BeforeAll
+    public static void setUpClass() {
+    }
+    
+    @AfterAll
+    public static void tearDownClass() {
+    }
+    
+    @BeforeEach
+    public void setUp() {
+    }
+    
+    @AfterEach
+    public void tearDown() {
+    }
+
+    /**
+     * Test of main method, of class Group.
+     */
+    @Test
+    public void testMain() {
+        System.out.println("main");
+        String[] args = null;
+        Group.main(args);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of addE method, of class Group.
+     */
+    @Test
+    public void testAddE() {
+        System.out.println("addE");
+        Group.addE();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of getGoupMembers method, of class Group.
+     */
+    @Test
+    public void testGetGoupMembers() {
+        System.out.println("getGoupMembers");
+        Group.getGoupMembers();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of power method, of class Group.
+     */
+    @Test
+    public void testPower() {
+        System.out.println("power");
+        int num1 = 0;
+        int num2 = 0;
+        int expResult = 0;
+        int result = Group.power(num1, num2);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of addI method, of class Group.
+     */
+    @Test
+    public void testAddI() {
+        System.out.println("addI");
+        Group.addI();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of multiply method, of class Group.
+     */
+    @Test
+    public void testMultiply() {
+        System.out.println("multiply");
+        int num1 = 0;
+        int num2 = 0;
+        Group instance = new Group();
+        int expResult = 0;
+        int result = instance.multiply(num1, num2);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of addH method, of class Group.
+     */
+    @Test
+    public void testAddH() {
+        System.out.println("addH");
+        Group.addH();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of multiplyNum method, of class Group.
+     */
+    @Test
+    public void testMultiplyNum() {
+        System.out.println("multiplyNum");
+        int num1 = 0;
+        int num2 = 0;
+        int expResult = 0;
+        int result = Group.multiplyNum(num1, num2);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of addK method, of class Group.
+     */
+    @Test
+    public void testAddK() {
+        System.out.println("addK");
+        Group.addK();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of addS method, of class Group.
+     */
+    @Test
+    public void testAddS() {
+        System.out.println("addS");
+        Group.addS();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+    
+}
