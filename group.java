@@ -23,21 +23,6 @@ public class Group {
     }
         return (int) x;
 }
-
-     public static void (String[] args) {
-        addE();
-    }
-    }
-  // code idea from https://www.javatpoint.com/power-of-a-number-in-java
-    public static int power(int num1,int num2){
-        num1 = 2;
-        num2 = 3;
-        double x = 0;
-        for(int i = 0; i < num2; i++){
-            x = num1;
-    }
-        return (int) x;
-}
    public static void addI(){
         System.out.println("Imane Lamine");
     }
