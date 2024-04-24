@@ -46,20 +46,12 @@ public class Group {
    public static void addK(){
         System.out.println("Kennedy Saxton");
     }
-        
-        //Sarah neeeds to put her method starting from line 62
-    public static void addE(){
+        public static void addS() {
         System.out.println("Sarah Nguyen");
     }
-    public static void getGroupMembers(){
-        System.out.println("Sarah Nguyen");
+
+    // Custom method to replace Math.abs
+    public static int absoluteValue(int number) {
+        return number < 0 ? -number : number;
     }
-    // Method
-const number = 100;
-
-let sum = 0;
-
-for(i = 0; i <= number; i++){
-  
-  sum = sum + i;
 }
