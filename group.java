@@ -11,6 +11,7 @@ public class Group {
 
     public static void getGoupMembers(){
         System.out.println("Eric Hernandez");
+        System.out.println("Kennedy Saxton");
         
     
 // code idea from https://www.javatpoint.com/power-of-a-number-in-java
@@ -44,7 +45,14 @@ public class Group {
         
     //Kennedy needs to update starting from line 46  
    public static void addK(){
-        System.out.println("Kennedy Saxton");
+       System.out.println("Kennedy Saxton");
+    }
+        public static int divide(int num1,int num2){
+        num1 = 10;
+        num2 = 5;
+        result x;
+        for(int i = 0; i < num2; i++){
+            result /= num1;
     }
         public static void addS() {
         System.out.println("Sarah Nguyen");
